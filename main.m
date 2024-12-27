@@ -16,6 +16,18 @@ fprintf(fid, '质量 m = %.2f kg\n', m);
 fprintf(fid, '直径 D = %.2f m\n', D);
 fprintf(fid, '抗弯刚度 EI = %.2e N·m²\n', EI);
 
+fprintf(fid, '基本参数：\n');
+fprintf(fid, '水深 h = %.2f m\n', h);
+fprintf(fid, '质量 m = %.2f kg\n', m);
+fprintf(fid, '直径 D = %.2f m\n', D);
+fprintf(fid, '抗弯刚度 EI = %.2e N·m²\n', EI);
+
+fprintf(fid, '基本参数：\n');
+fprintf(fid, '水深 h = %.2f m\n', h);
+fprintf(fid, '质量 m = %.2f kg\n', m);
+fprintf(fid, '直径 D = %.2f m\n', D);
+fprintf(fid, '抗弯刚度 EI = %.2e N·m²\n', EI);
+
 % 计算波浪参数
 g = 9.81;          % 重力加速度
 omega = 2*pi/T;    % 角频率
